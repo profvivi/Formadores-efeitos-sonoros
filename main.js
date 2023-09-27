@@ -1,3 +1,3 @@
-function tocaSomPom () {
-    document.querySelector('#som_tecla_pom').play;
+function tocaSomAplausos () {
+    document.querySelector('#som_tecla_aplausos').play;
 }

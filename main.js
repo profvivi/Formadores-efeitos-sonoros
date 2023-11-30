@@ -44,8 +44,9 @@ function tocaSom(idElementoAudio) {
     console.log(contador);//imprimir o contador várias vezes
   };*/
 
-  function tocaSom (seletorAudio) {
-    const elemento = document.querySelector(seletorAudio);
+
+  function tocaSom (idElementoAudio) {
+    const elemento = document.querySelector(idElementoAudio);
 
     if (elemento && elemento.localName === 'audio') {
         elemento.play();
